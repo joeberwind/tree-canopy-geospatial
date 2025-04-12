@@ -1,0 +1,43 @@
+<VRTDataset rasterXSize="46844" rasterYSize="50850">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform> -8.2716004000000004e+06,  2.0000000000000001e-01,  0.0000000000000000e+00,  4.9867926000000006e+06,  0.0000000000000000e+00, -2.0000000000000001e-01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1</MDI>
+      <MDI key="STATISTICS_MEAN">0.46141417007772</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0.49850891038095</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">58.29</MDI>
+    </Metadata>
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/josephberwind/Library/Mobile Documents/com~apple~CloudDocs/West Orange Tree File/2022/west_orange_new_jersey_united_states_tree_mask_mosaic_all_mr_tc0p6_wc0p85_pf_s0p2-0000000000-0000000000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32768" RasterYSize="32768" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32768" ySize="32768" />
+      <DstRect xOff="0" yOff="0" xSize="32768" ySize="32768" />
+    </SimpleSource>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/josephberwind/Library/Mobile Documents/com~apple~CloudDocs/West Orange Tree File/2022/west_orange_new_jersey_united_states_tree_mask_mosaic_all_mr_tc0p6_wc0p85_pf_s0p2-0000000000-0000032768.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14076" RasterYSize="32768" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14076" ySize="32768" />
+      <DstRect xOff="32768" yOff="0" xSize="14076" ySize="32768" />
+    </SimpleSource>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/josephberwind/Library/Mobile Documents/com~apple~CloudDocs/West Orange Tree File/2022/west_orange_new_jersey_united_states_tree_mask_mosaic_all_mr_tc0p6_wc0p85_pf_s0p2-0000032768-0000000000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="32768" RasterYSize="18082" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="32768" ySize="18082" />
+      <DstRect xOff="0" yOff="32768" xSize="32768" ySize="18082" />
+    </SimpleSource>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">/Users/josephberwind/Library/Mobile Documents/com~apple~CloudDocs/West Orange Tree File/2022/west_orange_new_jersey_united_states_tree_mask_mosaic_all_mr_tc0p6_wc0p85_pf_s0p2-0000032768-0000032768.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14076" RasterYSize="18082" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="14076" ySize="18082" />
+      <DstRect xOff="32768" yOff="32768" xSize="14076" ySize="18082" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
