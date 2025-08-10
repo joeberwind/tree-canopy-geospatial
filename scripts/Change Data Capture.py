@@ -25,7 +25,7 @@ else:
         'BAND_A': 1,
         'INPUT_B': raster_2022_layer.source(),
         'BAND_B': 1,
-        'FORMULA': '(A=1)*(B=0)',
+        'FORMULA': '(A==1)*(B==0)',
         'NO_DATA': -9999,
         'RTYPE': 5,
         'OUTPUT': output_loss_path
@@ -39,7 +39,7 @@ else:
         'BAND_A': 1,
         'INPUT_B': raster_2022_layer.source(),
         'BAND_B': 1,
-        'FORMULA': '(A=0)*(B=1)',
+        'FORMULA': '(A==0)*(B==1)',
         'NO_DATA': -9999,
         'RTYPE': 5,
         'OUTPUT': output_gain_path
