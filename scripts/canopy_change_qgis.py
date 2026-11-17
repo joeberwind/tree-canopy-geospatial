@@ -43,8 +43,11 @@ for kind, formula in (("loss", "(A==1)*(B==0)"), ("gain", "(A==0)*(B==1)")):
         "INPUT_B": later.source(),
         "BAND_B": 1,
         "FORMULA": formula,
-        "NO_DATA": -9999,
-        "RTYPE": 5,  # Float32
+        "NO_DATA": 255,
+        "RTYPE": 0,  # Byte: the result is 0 or 1
+        # Compressed and tiled: ~2.4 billion cells per output, which is ~9.5 GB as
+        # uncompressed Float32 but a small fraction of that as compressed Byte.
+        "CREATION_OPTIONS": "COMPRESS=DEFLATE|TILED=YES|BIGTIFF=IF_SAFER",
         "OUTPUT": out_path,
     })
     result = iface.addRasterLayer(out_path, f"Canopy {kind.title()} {tag.replace('_', '-')}")

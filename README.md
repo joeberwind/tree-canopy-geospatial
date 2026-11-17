@@ -70,7 +70,7 @@ To compare specific years:
 python scripts/canopy_statistics.py "raster-files/2015 VST.vrt" "raster-files/2022 VST.vrt"
 ```
 
-Loss and gain maps: open `West Orange Tree Canopy Project.qgz` in QGIS, then run `scripts/canopy_change_qgis.py` from the Python console. Edit `EARLIER` and `LATER` at the top of the script to compare other years.
+Loss and gain maps: open `West Orange Tree Canopy Project.qgz` in QGIS, then run `scripts/canopy_change_qgis.py` from the Python console. It writes compressed 0/1 rasters (about 12 MB each; under a minute on a laptop) to `outputs/`. Edit `EARLIER` and `LATER` at the top of the script to compare other years. Tested with QGIS 3.44 LTR.
 
 ## Limitations
 
