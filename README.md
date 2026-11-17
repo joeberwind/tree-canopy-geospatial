@@ -1,6 +1,6 @@
 # Tree Canopy Change Analysis – West Orange, NJ
 
-I measured how much tree canopy West Orange, NJ lost between 2015 and 2022, and where, for the West Orange Energy Commission. The analysis is the 2023 study cited in the findings (§28-2a) of the township's Tree Protection, Removal and Replacement Ordinance, [Ordinance 2846-24](https://westorange.org/DocumentCenter/View/5658/2846-24-Tree-Ordinance), adopted June 10, 2024.
+I measured how much tree canopy West Orange, NJ lost between 2015 and 2022, and where, for the West Orange Environmental Commission. The analysis is the 2023 study cited in the findings (§28-2a) of the township's Tree Protection, Removal and Replacement Ordinance, [Ordinance 2846-24](https://westorange.org/DocumentCenter/View/5658/2846-24-Tree-Ordinance), adopted June 10, 2024.
 
 ## Results
 
@@ -81,7 +81,7 @@ Loss and gain maps: open `West Orange Tree Canopy Project.qgz` in QGIS, then run
 
 ## Contributors
 
-Joseph Berwind, West Orange Energy Commission
+Joseph Berwind, West Orange Environmental Commission
 
 ## License
 
