@@ -1,0 +1,6 @@
+# Source rasters (not redistributed) and generated outputs
+data/
+outputs/
+*.aux.xml
+.DS_Store
+__pycache__/
